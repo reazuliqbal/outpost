@@ -2,7 +2,7 @@ import { version } from './package.json'
 
 export const TOKEN = 'DUNK'
 export const IS_HIVE = true
-export const APP_DOMAIN = 'https://cinetv.outpost.dtools.dev'
+export const APP_DOMAIN = 'https://dunksocial.outpost.dtools.dev'
 export const APP_TITLE = 'DunkSocial'
 export const APP = `outpost/${version}`
 export const IMAGES_CDN = 'https://images.hive.blog/'
@@ -20,7 +20,7 @@ export const SIDECHAIN_ID = 'ssc-mainnet-hive'
 export const SIDECHAIN_RPC = 'https://ha.herpc.dtools.dev'
 export const SIDECHAIN_EXPLORER = 'https://he.dtools.dev'
 export const SIDECHAIN_HISTORY_API = 'https://accounts.hive-engine.com'
-export const NUMBER_OF_UNSTAKE_TRX = 6
+export const NUMBER_OF_UNSTAKE_TRX = 2
 export const MAX_UPLOAD_SIZE = 8
 export const AXIOS_CACHE_CONFIG = {
   maxAge: 0 * 60 * 1000, // 0 minutes
@@ -30,6 +30,6 @@ export const NFT_ENABLED = false
 export const NFT_SYMBOL = 'CINENFT'
 export const NFT_MARKETPLACE = 'cinetv'
 export const NFT_MARKETPLACE_API = 'https://api.marketplace.tribaldex.com'
-export const DTF_ENABLED = true
+export const DTF_ENABLED = false
 export const DTF_ID = 'CINE:CINE'
-export const POOL_ENABLED = true
+export const POOL_ENABLED = false
